@@ -53,17 +53,21 @@ const Header = () => {
                     </div>
                 )}
                 <Link to="/" className="flex h-5 items-center">
+    {/* Katta ekranlar uchun logo */}
     <img
-        className="h-full hidden md:block dark:block"
+        className="h-full hidden md:block"
         src={ytLogo}
         alt="YouTube"
     />
+    
+    {/* Kichik ekranlar uchun mobil logo */}
     <img
-        className="h-full md:hidden dark:block"
+        className="h-full md:hidden"
         src={ytLogoMobile}
         alt="YouTube Mobile"
     />
 </Link>
+
 
             </div>
 
